@@ -41,6 +41,9 @@
     console.table(inventorsIn1500s)
     // Array.prototype.map()
     // 2. Give us an array of the inventors first and last names
+    let fullNames = inventors.map(item => item.first +' '+ item.last )
+    console.table(fullNames)
+    
 
     // Array.prototype.sort()
     // 3. Sort the inventors by birthdate, oldest to youngest
